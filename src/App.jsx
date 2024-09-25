@@ -8,7 +8,9 @@ function App() {
 
   return (
     <>
-      <Accordian/>
+      <div className='w-full select-none h-screen flex justify-center items-center'>
+        <Accordian/>
+      </div>
     </>
   )
 }
